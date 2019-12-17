@@ -7,7 +7,7 @@ public class StudentDTO implements Serializable{
 	private String sname;
 	private int m1,m2,m3;
 	private int a;
-	
+	private  String b;
 	public int getSno() {
 		return sno;
 	}
