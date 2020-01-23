@@ -17,6 +17,7 @@ public class StudentControllerServlet extends HttpServlet{
 	@Override
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		StudentVO vo=null;
+		String name=null;
 		String sno=null,sname=null,m1=null,m2=null,m3=null;
 		String result=null;
 		StudentDTO dto=null;
