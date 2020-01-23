@@ -18,7 +18,7 @@ public class StudentControllerServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		StudentVO vo=null;
 		String name=null;
-		int age=0;
+		int age=20;
 		String sno=null,sname=null,m1=null,m2=null,m3=null;
 		String result=null;
 		StudentDTO dto=null;
